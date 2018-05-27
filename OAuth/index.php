@@ -1,5 +1,5 @@
 <?php
-	session_start();1
+	session_start();
 
 	if (!isset($_SESSION['access_token'])) {
 		header('Location: login.php');
